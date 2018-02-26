@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   s.prepare_command = <<-CMD
-	touch "`date`"
+	touch "./Classes/`date`"
 CMD
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
