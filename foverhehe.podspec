@@ -96,7 +96,7 @@ CMD
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
-
+  s.preserve_path = 'Classes/*'
   # s.public_header_files = "Classes/**/*.h"
 
 
