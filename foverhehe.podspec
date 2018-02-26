@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   s.prepare_command = <<-CMD
-                mkdir 123
+                echo '哈哈哈哈哈哈哈哈哈哈哈哈红红火火恍恍惚惚'
   CMD
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
