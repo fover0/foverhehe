@@ -25,14 +25,14 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    123
-                   DESC
+			123123123 
+                  DESC
 
   s.homepage     = "http://EXAMPLE/hehe"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   s.prepare_command = <<-CMD
-	mv ./Classes/a.h ./Classes/b.h  
+	touch "`date`"
 CMD
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
